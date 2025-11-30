@@ -72,7 +72,7 @@ print("\n" + "="*80)
 print("加载Excel数据")
 print("="*80)
 
-excel_file = 'excel_1117版本.csv'
+excel_file = 'excel_1117.csv'
 
 if not os.path.exists(excel_file):
     print(f"\n错误: 找不到文件 {excel_file}")
